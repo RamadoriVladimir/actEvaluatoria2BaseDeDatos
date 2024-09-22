@@ -1,7 +1,7 @@
 Comparativa entre ORM y Procedimientos Almacenados
 
 Código
-El programa que utiliza ORM es más compacto, con solo 18 líneas en el caso de SQLAlchemy. En contraste, el programa que emplea procedimientos almacenados incluye configuraciones adicionales y más consultas SQL explícitas, sumando un total de 29 líneas.
+El programa que utiliza ORM es más compacto, con solo 18 líneas en el caso de SQLAlchemy. En contraste, el programa que emplea procedimientos almacenados incluye configuraciones adicionales y más consultas SQL explícitas, sumando un total de 39 líneas.
 
 Eficiencia
 ORM: Facilita las consultas, aunque puede tener un ligero decremento en rendimiento debido al tiempo que toma traducir los objetos y operaciones del código de alto nivel a consultas SQL, además del uso extra de memoria para mantener estas abstracciones.
